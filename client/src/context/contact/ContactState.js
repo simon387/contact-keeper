@@ -13,7 +13,24 @@ import {
 } from '../types';
 
 const ContactState = props => {
-	const initialState = {};
+	const initialState = {
+		contacts: [
+			{
+				id: 1,
+				name: 'nome',
+				email: 'email',
+				phone: '33',
+				type: 'personal'
+			},
+			{
+				id: 2,
+				name: 'nome2',
+				email: 'email2',
+				phone: '332',
+				type: 'professional'
+			},
+		]
+	};
 	const [state, dispatch] = useReducer(contactReducer, initialState);
 
 	// Add Contact
