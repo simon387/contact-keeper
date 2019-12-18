@@ -4,7 +4,7 @@ import ContactForm from '../contacts/ContactForm';
 import ContactFilter from '../contacts/ContactFilter';
 
 
-const Home = () => {12.57
+const Home = () => {//12.57
 	return (
 		<div className="grid-2">
 			<div>
