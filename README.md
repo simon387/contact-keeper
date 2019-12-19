@@ -1,4 +1,6 @@
-# contact-keeper-be
+# contact-keeper
+
+back end in note per le api, client in react
 
 ## setup
 
