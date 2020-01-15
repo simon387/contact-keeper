@@ -18,3 +18,8 @@ ricordarsi di fare ```npm i``` anche nella cartella del client
 ## run server and fe
 
 ```npm run dev```
+
+## accounts
+
+simone.celia
+
