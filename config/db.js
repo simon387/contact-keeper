@@ -4,16 +4,18 @@ const db = config.get('mongoURI');
 
 const connectDB = async () => {
 	try {
+		console.log('dio can......');
 		await mongoose.connect(db, {
 			useNewUrlParser: true,
 			useCreateIndex: true,
 			useFindAndModify: false,
-			useUnifiedTopology: true,
+			useUnifiedTopology: true
 		});
 		console.log('MongoDB Connected...');
 	} catch (err) {
 		console.error(err.message);
 		process.exit(1);
+		console.log('orcamadon...');
 	}
 };
 
