@@ -4,7 +4,6 @@ const db = config.get('mongoURI');
 
 const connectDB = async () => {
 	try {
-		console.log('dio can......');
 		await mongoose.connect(db, {
 			useNewUrlParser: true,
 			useCreateIndex: true,
@@ -15,7 +14,6 @@ const connectDB = async () => {
 	} catch (err) {
 		console.error(err.message);
 		process.exit(1);
-		console.log('orcamadon...');
 	}
 };
 
